@@ -9,7 +9,7 @@ function App() {
   document.body.style.backgroundColor = backgroundColors[Math.floor(Math.random()*backgroundColors.length)];
   
   
-  //react hook to maintain the quotes
+  //react hook to maintain the state of the quotes
   const [quotes, setQuotes] = useState("");
   //fetching the data from the api to get quotes
   const getQuote = () => {

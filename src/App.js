@@ -35,14 +35,14 @@ function App() {
             {quotes.author}
           </span>
         </div>
-        <div id="buttonBox tweet-quote">
+        <div id="buttonBox">
           <a
             id="tweet-quote"
             target="_blank"
             href="twitter.com/intent/tweet"
             data-text="custom share text"
           >
-            <i class="fa fa-twitter randomBgColor tweet-quote" aria-hidden="true"></i>
+            <i class="fa fa-twitter randomBgColor" aria-hidden="true"></i>
           </a>
           <button
             onClick={() => {

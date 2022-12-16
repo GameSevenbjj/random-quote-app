@@ -2,7 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This was a project for freeCodeCamp. I used reactjs and bootstrap to finish this project.
+This was a project for freeCodeCamp. I used mainly react for this project, because I am completing the front end libraries section of the freeCodeCamp curriculum.
+To complete this project I used an array of colors and two different methods of the math object to get random colors of the background. Then I use a react hook for my quotes api. The hook fetches the data from the api and then returns it and then I use the same methods of math as before to get the quotes at random. Then I use a simple function to give the button functionality, so it changes quotes and color it each time its pressed.
 
 ## Available Scripts
 

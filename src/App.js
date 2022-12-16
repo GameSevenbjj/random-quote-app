@@ -48,6 +48,7 @@ function App() {
             <i class="fa fa-twitter randomBgColor" aria-hidden="true"></i>
           </a>
           <button
+          //Gives the button functionality, so everytime its click it changes the quote
             onClick={() => {
               getQuote();
             }}
